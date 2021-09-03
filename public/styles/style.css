@@ -1,0 +1,75 @@
+.dark-grey-background {
+    background-color: #181818;
+}
+
+.black-background {
+    background-color: #000000;
+}
+
+.green-background {
+    background-color: #1ED760;
+    border: none;
+}
+
+.white-background {
+    background-color: #FFFFFF;
+}
+
+.white-letters {
+    color: #FFFFFF;
+}
+
+.green-letters {
+    color: #1ED760;
+}
+
+.black-letters {
+    color: #000000;
+}
+
+.cover{
+    background-image: url("/images/spotify-background.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cover form{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 30px 60px;
+}
+
+.form-margin {
+    margin: 5px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    margin: 5%;
+    height: 90%;
+}
+
+.align-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.table {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+}
+
+#listenMargin {
+    margin-right: 1%;
+}
